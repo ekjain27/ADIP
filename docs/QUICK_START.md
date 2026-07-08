@@ -39,7 +39,7 @@ Install the following software before continuing.
 # Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ADIP.git
+git clone https://github.com/ekjain27/ADIP.git
 
 cd ADIP
 ```
