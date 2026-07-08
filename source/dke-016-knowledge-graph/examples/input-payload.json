@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "node_acme",
+      "type": "organization",
+      "canonicalName": "Acme Corp",
+      "aliases": ["Acme"],
+      "attributes": { "industry": "Manufacturing" },
+      "confidence": 0.96,
+      "sourceIds": ["source_board_minutes"]
+    },
+    {
+      "id": "node_expansion",
+      "type": "decision",
+      "canonicalName": "Expand EU Distribution",
+      "aliases": ["EU expansion"],
+      "attributes": { "owner": "Strategy" },
+      "confidence": 0.9,
+      "sourceIds": ["source_board_minutes"]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_acme_expansion",
+      "sourceNodeId": "node_acme",
+      "targetNodeId": "node_expansion",
+      "relationType": "decided",
+      "weight": 0.8,
+      "confidence": 0.88,
+      "evidenceIds": ["evidence_1"],
+      "temporalScope": {
+        "validFrom": "2026-01-01T00:00:00.000Z",
+        "validTo": null,
+        "observedAt": "2026-02-01T00:00:00.000Z"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "evidence_1",
+      "sourceId": "source_board_minutes",
+      "sourceType": "meeting_notes",
+      "excerpt": "Board approved EU distribution expansion.",
+      "confidence": 0.94
+    }
+  ]
+}

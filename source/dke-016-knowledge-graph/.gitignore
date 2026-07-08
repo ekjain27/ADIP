@@ -1,0 +1,27 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build
+build/
+dist/
+preview-dist/
+node_modules/
+*.egg-info/
+
+# Logs
+*.log

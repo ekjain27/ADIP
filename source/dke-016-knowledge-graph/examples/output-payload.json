@@ -1,0 +1,10 @@
+{
+  "nodesCreated": 2,
+  "nodesMerged": 0,
+  "edgesCreated": 1,
+  "evidenceCreated": 1,
+  "nodeIds": ["node_acme", "node_expansion"],
+  "edgeIds": ["edge_acme_expansion"],
+  "evidenceIds": ["evidence_1"],
+  "warnings": []
+}

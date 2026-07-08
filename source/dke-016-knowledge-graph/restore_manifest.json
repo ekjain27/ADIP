@@ -1,0 +1,48 @@
+﻿{
+    "restore_date":  "2026-06-30",
+    "restored_root":  "C:\\Users\\BAPS\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-003\\outputs\\dke-016-knowledge-graph",
+    "source_root":  "C:\\Users\\BAPS\\Documents\\Codex\\2026-06-29\\c\\outputs\\dke-016-knowledge-graph",
+    "pytest_collect_only":  "606 tests collected",
+    "pytest":  "606 passed",
+    "counts":  {
+                   "python_files":  451,
+                   "src_python_files":  402,
+                   "top_level_test_files":  49,
+                   "documentation_files":  27,
+                   "validation_files":  26,
+                   "patent_files":  21,
+                   "research_paper_files":  33,
+                   "commercial_release_files":  14
+               },
+    "hygiene":  {
+                    "gitignore_exists":  true,
+                    "src_dke_commercial_release_zip_present":  false,
+                    "pycache_remaining":  0,
+                    "pytest_cache_remaining":  0,
+                    "compiled_python_remaining":  0
+                },
+    "zip":  {
+                "path":  "C:\\Users\\BAPS\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-003\\outputs\\dke-016-knowledge-graph-full-project.zip",
+                "excludes":  [
+                                 ".git",
+                                 "__pycache__",
+                                 ".pytest_cache",
+                                 ".mypy_cache",
+                                 ".venv",
+                                 "venv",
+                                 "env",
+                                 "node_modules",
+                                 "dist",
+                                 "build",
+                                 "*.pyc",
+                                 "*.pyo",
+                                 "*.pyd",
+                                 "*.log"
+                             ],
+                "entries":  563,
+                "python_entries":  451,
+                "test_entries":  49,
+                "src_entries":  501,
+                "commercial_release_entries":  14
+            }
+}

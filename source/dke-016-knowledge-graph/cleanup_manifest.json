@@ -1,0 +1,74 @@
+{
+  "cleanup_date": "2026-06-30",
+  "project_path": "C:\\Users\\BAPS\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-003\\outputs\\dke-016-knowledge-graph",
+  "scope": {
+    "production_modules_modified": false,
+    "tests_modified": false,
+    "documentation_modified": false,
+    "patent_modules_modified": false,
+    "research_paper_modules_modified": false,
+    "commercial_release_modules_modified": false
+  },
+  "removed_artifacts": {
+    "__pycache__directories": 68,
+    ".pytest_cache_directories": 2,
+    ".mypy_cache_directories": 0,
+    "compiled_python_files": 5113
+  },
+  "gitignore": {
+    "exists": true,
+    "sections": [
+      "Python",
+      "Test caches",
+      "Type checker",
+      "IDE",
+      "OS",
+      "Virtual environments",
+      "Build",
+      "Logs"
+    ],
+    "patterns": [
+      "__pycache__/",
+      "*.py[cod]",
+      "*$py.class",
+      ".pytest_cache/",
+      ".coverage",
+      "htmlcov/",
+      ".mypy_cache/",
+      ".vscode/",
+      ".idea/",
+      ".DS_Store",
+      "Thumbs.db",
+      ".venv/",
+      "venv/",
+      "env/",
+      "build/",
+      "dist/",
+      "*.egg-info/",
+      "*.log"
+    ]
+  },
+  "git_index": {
+    "tracked_ignored_files_removed": 298,
+    "index_only": true,
+    "disk_files_preserved": true,
+    "removed_paths": [
+      "dist/"
+    ],
+    "ignored_tracked_files_remaining": 0,
+    "repository_note": "The project folder contains an incomplete .git directory shell; Git operations resolve through the parent repository."
+  },
+  "validation": {
+    "__pycache__directories_remaining": 0,
+    ".pytest_cache_directories_remaining": 0,
+    ".mypy_cache_directories_remaining": 0,
+    "compiled_python_files_remaining": 0,
+    ".gitignore_exists": true,
+    "ignored_tracked_files_remaining": 0,
+    "status": "production-clean"
+  },
+  "regression": {
+    "python_pytest": "585 passed",
+    "npm_run_test": "passed"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "@decisionos/dke-016-knowledge-graph",
+  "version": "0.1.0",
+  "description": "DecisionOS DKE-016 vendor-independent Knowledge Graph Construction module.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run build:lib && npm run build:preview",
+    "build:lib": "node ./node_modules/typescript/bin/tsc -p tsconfig.json",
+    "build:preview": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "npm run build:lib && node --test dist/dke/knowledge-graph/tests/*.test.js dist/ux/tests/*.test.js",
+    "benchmark": "npm run build:lib && node dist/dke/knowledge-graph/benchmarks/importLargeGraph.js"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^28.0.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "jsdom": "^29.1.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "typescript": "^5.5.0",
+    "vite": "^8.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
